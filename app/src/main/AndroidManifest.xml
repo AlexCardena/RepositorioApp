@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.alex.guiadeprimerosauxilios">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityPrincipal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityQuemadura" />
+        <activity android:name=".ActivityAtaqueCardiaco" />
+        <activity android:name=".ActivityExploracion" />
+        <activity android:name=".ActivityDesmayo" />
+        <activity android:name=".ActivityHeridasProfundas" />
+        <activity android:name=".ActivityReaccionesAlergicas" />
+        <activity android:name=".ActivitySofocacion" />
+        <activity android:name=".ActivityProblemasDentales" />
+        <activity android:name=".ActivityEsguince" />
+        <activity android:name=".ActivityElectrocucion" />
+        <activity android:name=".ActivityVendas" />
+        <activity android:name=".ActivityMordedura" />
+        <activity android:name=".ActivityBocaABoca" />
+        <activity android:name=".ActivityRCP" />
+        <activity android:name=".ActivityOftalmologica" />
+        <activity android:name=".ActivityBotiquin" />
+        <activity android:name=".ActivityEnvenenamiento"></activity>
+    </application>
+
+</manifest>
